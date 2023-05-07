@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(189, 185, 185);
+}
+
+
+.table {
+    background-color: white;
+}
+
+.is-partner {
+    background-color: rgb(177, 214, 229);
+    padding: 3px;
+    border-radius: 40%;
+
+}
+
+.is-not-partner {
+    background-color: rgb(231, 230, 227);
+    padding: 3px;
+    border-radius: 40%;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: rgb(240, 239, 239);
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: light-grey;
+}
